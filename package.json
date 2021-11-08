@@ -1,0 +1,39 @@
+{
+  "name": "huhubot",
+  "version": "1.0.0",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prepublish": "node util/setup.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "better-sqlite3": "^7.1.0",
+    "chalk": "^2.4.1",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.6.1",
+    "fuse.js": "^6.0.4",
+    "he": "^1.2.0",
+    "klaw": "^2.1.1",
+    "luxon": "^1.24.1",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.18.1",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
